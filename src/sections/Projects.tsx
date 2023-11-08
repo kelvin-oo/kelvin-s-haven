@@ -62,7 +62,7 @@ function Projects() {
     },
     {
       image: "/react_music.png",
-      projectName: "DevTunes: Calming Melodies for Coding Productivity",
+      projectName: "DevTunes",
       projectLink: "https://react-music-ola.netlify.app/",
       projectDescription:
         "In the world of programming, focus and concentration are essential for crafting elegant code. DevTunes, a music web app built with React and CSS, provides a curated collection of calming melodies designed to enhance your coding experience.",
@@ -74,7 +74,7 @@ function Projects() {
     },
     {
       image: "/budget.png",
-      projectName: "BudgetBuddy: Your Personalized Expense and Income Tracker",
+      projectName: "BudgetBuddy",
       projectLink: "https://olami-budgetit.netlify.app/",
       projectDescription:
         "Juggling academic commitments, extracurricular activities, and personal finances can be a daunting task for any student. As a 100-level student at the time, I faced the challenge of maintaining a clear overview of my income and expenses. To address this common struggle, I developed BudgetBuddy, an expenses and income tracker designed specifically for students.",
@@ -88,7 +88,7 @@ function Projects() {
     {
       image: "/colors.png",
       projectName:
-        " Palette Pro: Your All-in-One Color Companion for Web Designers",
+        " Palette Pro",
       projectLink: "https://steady-genie-071a13.netlify.app/",
       projectDescription:
         "In the world of web design, color plays a pivotal role in creating visually appealing and engaging user interfaces. Palette Pro, a comprehensive color generation, color matcher, and color picker app, empowers web designers to effortlessly discover, match, and select the perfect color palettes for their projects. Only available on desktops",
@@ -138,7 +138,7 @@ function Projects() {
     },
     {
       image: "/port.png",
-      projectName: "Kelvin's Haven: Showcasing My Skills and Passion",
+      projectName: "Kelvin's Haven",
       projectLink: "https://kelvin-s-haven.vercel.app/",
       projectDescription:
         "In the digital age, having a strong online presence is crucial for professionals seeking to showcase their skills, experience, and passion. Recognizing this importance, I embarked on a journey to create my personal portfolio website, a platform to effectively communicate my expertise and aspirations.",
