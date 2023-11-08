@@ -29,12 +29,12 @@ function About() {
         <div className="about-grid-info">
           <p className="about-grid-info-text">
             Hi! My name is Kelvin, I am passionate about building efficient
-            softwares. Ever since I created my first mock website in 2017, I've
-            wanted to become a software developer capable of building complete
-            applications from start to finish. Specializing in one aspect of the
-            web wasn&apos;t enough for me. Don&apos;t get me wrong; there&apos;s
-            nothing wrong with specialization. It&apos;s just that I had a
-            passion for building softwares from end to end.
+            softwares. Ever since I created my first mock website in 2017,
+            I&#39;ve wanted to become a software developer capable of building
+            complete applications from start to finish. Specializing in one
+            aspect of the web wasn&#39;t enough for me. Don&#39;t get me wrong;
+            there&#39;s nothing wrong with specialization. It&#39;s just that I
+            had a passion for building softwares from end to end.
           </p>
           <p className="about-grid-info-text">
             Fast-forward to today, I specialize in designing and developing
@@ -70,7 +70,7 @@ function About() {
             &nbsp;aimed at giving students ease in reading their pdfs.
           </p>
           <p className="about-grid-info-text">
-            Here are a few technologies I&apos;ve been working with recently:
+            Here are a few technologies I&#39;ve been working with recently:
           </p>
           <ul className="about-grid-info-list">
             <li className="about-grid-info-list-item">HTML</li>
