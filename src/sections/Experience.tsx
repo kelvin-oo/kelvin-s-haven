@@ -14,63 +14,70 @@ function Experience() {
 
   const expereinces = [
     {
-      name: "Rapidops",
+      name: "ThinkPeople",
       role: "Full Stack Developer",
-      url: "https://www.rapidops.com",
-      start: "January 2021",
+      url: "https://www.linkedin.com/company/thinkpeople-ltd/mycompany/verification/",
+      start: "January 2023",
       end: "Present",
       shortDescription: [
-        "I had experience working on a large codebase utilizing Kibana and Elasticsearch.",
-        "Throughout my work, I've utilized various MERN stack technologies, including React, Redux, TypeScript, Node.js, Hapi, and Elasticsearch, among others.",
-        "I've also managed a small team that includes Frontend Developers, Backend Developers, and UI/UX Developers.",
-        "Additionally, I've represented the company in client meetings, communicating effectively on their behalf.",
+        "Currently working as a full-stack software developer building efficient softwares.",
+        "I specialize in designing and developing high-quality solutions that delight our clients and exceed their expectations at ThinkPeople Limited",
+        "Working as lead developer and crafting the best approach and tech stack to every unique problem",
       ],
     },
     {
-      name: "Youtube",
-      role: "Content Creator",
-      url: "https://www.youtube.com/kishansheth21",
-      start: "April 2021",
-      end: "Present",
+      name: "ThinkPeople LTD",
+      role: "Lead Frontend Developer Instructor",
+      url: "#",
+      start: "November 2022",
+      end: "February 2023",
       shortDescription: [
-        "Upon graduating in 2021, I began creating content on YouTube, with the aim of enhancing my skills and working with the latest technologies, specifically React and Node.",
-        "Over time, I have developed and shared over 50 projects using React on my channel.",
-        "As a result, my channel has gained a substantial following, with over 11,000 subscribers to date. I have also had the pleasure of collaborating with various brands throughout my journey.",
+        "Created a comprehensive eight-week curriculum to teach students the basics of frontend development.",
+        "Led other instructors on how to best implement the curriculum and deliver sound lectures.",
+        "Taught students frontend development with a step-by-step process, from HTML to CSS, to JavaScript and React.",
+        "Assessed students weekly and gave them projects to gauge their progress.",
+        "Recorded Tutorial videos for students after class learning.",
+        "Examined and graded students at the end of the program.",
       ],
     },
     {
-      name: "ACES",
-      role: "President",
-      url: "https://www.linkedin.com/company/association-of-computer-engineering-students/",
-      start: "November 2019",
-      end: "November 2020",
+      name: "Thestylehouse",
+      role: "Web Developer",
+      url: "https://www.thestylehousenigeria.com/",
+      start: "July 2022",
+      end: "September 2022",
       shortDescription: [
-        "As the elected President of the ACES Departmental Club, I successfully led a team of board members and executive committee members to organize and execute multiple events throughout the year.",
-        "Additionally, I secured sponsorships from reputable brands to support our events.",
-        "Overall, it was a rewarding experience that allowed me to develop my leadership skills while contributing positively to the growth of the organization.",
+        "Designed and developed a fully responsive website using React, Tailwind, and plain CSS, following the provided UI/UX design",
+        "Implemented custom features and functionality to improve user experience and performance, resulting in faster load times and increased user engagement.",
+        "Utilized best practices for code organization, including component-based architecture and reusable CSS classes, to ensure scalability and maintainability.",
+        "Worked closely with the design team and project stakeholders to ensure the website met all requirements and exceeded expectations.",
+        "Deployed the website to a live environment, conducting thorough testing to ensure functionality and compatibility across multiple devices and browsers.",
       ],
     },
     {
-      name: "ISTE",
+      name: "AbrahamtheFirst Media",
       role: "Web Developer",
       url: "https://www.linkedin.com/company/association-of-computer-engineering-students/",
-      start: "November 2019",
-      end: "November 2020",
+      start: "April 2022",
+      end: "June 2022",
       shortDescription: [
-        "Write modern, performant, maintainable code for a diverse array of client and internal projects",
-        "Work with a variety of different languages, platforms, frameworks, and content management systems such as JavaScript, TypeScript, Gatsby, React, Craft, WordPress, Prismic, and Netlify",
-        "Communicate with multi-disciplinary teams of engineers, designers, producers, and clients on a daily basis",
+        "Planned website design and development, converting mockups into usable web presence.",
+        "Communicated with client on what they want and what they hope to achieve with the website",
+        "Communicated with client on a daily basis to show progress and also make desired changes.",
       ],
     },
     {
-      name: "Shashaan",
-      role: "Founder",
+      name: "InstaSkool Tech",
+      role: "Frontend Developer",
       url: "https://www.linkedin.com/company/association-of-computer-engineering-students/",
-      start: "November 2018",
-      end: "November 2021",
+      start: "November 2021",
+      end: "March 2022",
       shortDescription: [
-        "While still a student, I founded a web hosting company that offered affordable hosting services.",
-        "With over 300 customers, the business thrived until I graduated and sold it to another company.",
+        "Worked with a team to build an online learning website.",
+        "Worked as a Frontend Developer and was focused on giving the site the best possible UI by writing lines of CSS code.",
+        "Communicated with UI/UX designers, product manager and backend developers to ensure a well implemented site.",
+        "Worked on the responsiveness of the site to make sure the UI looked good on all devices.",
+        "Fixed bugs and made sure the website was up and running.",
       ],
     },
   ];
@@ -102,7 +109,9 @@ function Experience() {
                 onClick={() => setSelected(index)}
                 key={expereince.name}
               >
-                <span>{expereince.name}</span>
+                <span style={{
+                  paddingBottom: '5px'
+                }}>{expereince.name}</span>
               </li>
             );
           })}

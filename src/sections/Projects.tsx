@@ -7,60 +7,145 @@ import { motion } from "framer-motion";
 function Projects() {
   const projectsData = [
     {
-      image: "/project1.png",
-      projectName: "Pokedex",
-      projectLink: "https://netlify.com",
+      image: "/ease.png",
+      projectName: "Ease",
+      projectLink: "https://ease-azure.vercel.app/",
       projectDescription:
-        "This is a web application that uses the PokeAPI to display information about different Pokemon, including their evolution levels and details. You can compare multiple Pokemon using a queue, and add them to your personal list using Firebase's Firestore database.",
+        "Ease is a web application that utilizes React, Next.js, and Prisma to provide students with a comprehensive question answering system. Students can upload their PDF documents and interact with the application to ask questions directly related to the text. The application uses advanced natural language processing techniques to extract key information from the uploaded PDFs and generate comprehensive answers to student queries. This is my most recent project",
       projectTech: [
         "React",
-        "Redux Toolkit",
-        "SCSS",
-        "Firebase",
+        "Next JS",
+        "Tailwind",
+        "Prisma",
         "Typescript",
-        "PokeApi",
+        "openAi API",
+        "TRCP",
       ],
       projectExternalLinks: {
         github: "",
-        externalLink: "",
+        externalLink: "https://ease-azure.vercel.app/",
       },
     },
     {
-      image: "/project2.png",
-      projectName: "Realtime Chat App",
-      projectLink: "https://netlify.com",
+      image: "/stitch.png",
+      projectName: "Stitch.com",
+      projectLink:
+        "https://stitch-com.vercel.app/sign-in?redirect_url=https%3A%2F%2Fstitch-com.vercel.app%2Fprofile%2Fnull",
       projectDescription:
-        "This is a chat app made with React and Node.js that sends real-time messages and is highly scalable. It uses advanced JavaScript concepts like debouncing and is optimized for React. It has 300+ stars on GitHub and over 180k views on YouTube.",
-      projectTech: [
-        "React",
-        "Sockets",
-        "Node.js",
-        "Express",
-        "MongoDB",
-        "Styled Components",
-      ],
+        "Stitch.com is a social media app inspired by Threads, offering a unique and engaging platform for users to share their thoughts, ideas, and experiences. Built with React, Next.js, and MongoDB, Stitch.com provides a seamless user experience and fosters meaningful connections among individuals.",
+      projectTech: ["React", "ShadCN", "Node.js", "Express", "MongoDB"],
       projectExternalLinks: {
         github: "",
-        externalLink: "",
+        externalLink:
+          "https://stitch-com.vercel.app/sign-in?redirect_url=https%3A%2F%2Fstitch-com.vercel.app%2Fprofile%2Fnull",
       },
     },
     {
-      image: "/project3.png",
-      projectName: "Netflix App",
-      projectLink: "https://netlify.com",
+      image: "/digital.png",
+      projectName: "Digital Objectivity",
+      projectLink: "https://objectivity-co-uk.vercel.app/career",
       projectDescription:
-        "I made a Netflix copy with TMBD Api. It has infinite scrolling and lets you watch movies by genre. You can also add movies to your favorites list.",
+        "Here, I used Nextjs, tailwind, typescript, sanity and grow.I also connected this site to a backend CMS. Implemented custom features and functionality to improve user experience and performance, features such as allowing job seekers to filter through jobs by job type and mode(on-site, remote and hybrid). I also implemented other useful features following the provided UI/UX Design, this will result in increased user engagement.",
       projectTech: [
         "React",
-        "Node.js",
-        "Firebase",
-        "MongoDB",
-        "Express",
-        "Redux Toolkit",
+        "Next JS",
+        "Tailwind",
+        "Sanity.io",
+        "Groq",
+        "Typescript",
+        "CSS/SCSS",
       ],
       projectExternalLinks: {
         github: "",
-        externalLink: "",
+        externalLink: "https://objectivity-co-uk.vercel.app/career",
+      },
+    },
+    {
+      image: "/react_music.png",
+      projectName: "DevTunes: Calming Melodies for Coding Productivity",
+      projectLink: "https://react-music-ola.netlify.app/",
+      projectDescription:
+        "In the world of programming, focus and concentration are essential for crafting elegant code. DevTunes, a music web app built with React and CSS, provides a curated collection of calming melodies designed to enhance your coding experience.",
+      projectTech: ["React", "CSS"],
+      projectExternalLinks: {
+        github: "",
+        externalLink: "https://react-music-ola.netlify.app/",
+      },
+    },
+    {
+      image: "/budget.png",
+      projectName: "BudgetBuddy: Your Personalized Expense and Income Tracker",
+      projectLink: "https://olami-budgetit.netlify.app/",
+      projectDescription:
+        "Juggling academic commitments, extracurricular activities, and personal finances can be a daunting task for any student. As a 100-level student at the time, I faced the challenge of maintaining a clear overview of my income and expenses. To address this common struggle, I developed BudgetBuddy, an expenses and income tracker designed specifically for students.",
+      projectTech: ["React", "styled components"],
+      projectExternalLinks: {
+        github: "",
+        externalLink: "https://olami-budgetit.netlify.app/",
+      },
+    },
+
+    {
+      image: "/colors.png",
+      projectName:
+        " Palette Pro: Your All-in-One Color Companion for Web Designers",
+      projectLink: "https://steady-genie-071a13.netlify.app/",
+      projectDescription:
+        "In the world of web design, color plays a pivotal role in creating visually appealing and engaging user interfaces. Palette Pro, a comprehensive color generation, color matcher, and color picker app, empowers web designers to effortlessly discover, match, and select the perfect color palettes for their projects. Only available on desktops",
+      projectTech: ["React", "CSS/SCSS"],
+      projectExternalLinks: {
+        github: "",
+        externalLink: "https://steady-genie-071a13.netlify.app/",
+      },
+    },
+    {
+      image: "/style.png",
+      projectName: "The Style House",
+      projectLink: "https://thestylehousenigeria.com/",
+      projectDescription:
+        "This was a remarkable journey — a brand-new website for an esteemed styling and fashion-tech company!The Style House Nigeria. It was an incredible experience working closely with a talented team and bringing their vision to life through an immersive digital platform.",
+      projectTech: [
+        "React",
+        "Next JS",
+        "Tailwind",
+        
+        "Typescript",
+        
+      ],
+      projectExternalLinks: {
+        github: "",
+        externalLink: "https://thestylehousenigeria.com/",
+      },
+    },
+    {
+      image: "/brick.png",
+      projectName: "Brickwire Properties",
+      projectLink: "https://www.brickwireproperties.com/",
+      projectDescription:
+        "On this project, I took on the challenge of building a fullstack software solution for BrickWire Construction a large properties and real estate firm. From the initial design to deployment, I covered every step in the process of creating a standout full-stack web application. This process involved ensuring a smooth user experience, managing data, and enhancing security. I delved into frontend development with Next.js, wrote backend logic with API routes, harnessed MongoDB for data management, and incorporated a secure authentication system. For me, this project wasn't just another project; it was about crafting a versatile and efficient software solution from start to finish.",
+      projectTech: [
+        "React",
+        "Next JS",
+        "Tailwind",
+        "Prisma",
+        "Typescript",
+        "openAi API",
+      ],
+      projectExternalLinks: {
+        github: "",
+        externalLink: "https://www.brickwireproperties.com/",
+      },
+    },
+    {
+      image: "/port.png",
+      projectName: "Kelvin's Haven: Showcasing My Skills and Passion",
+      projectLink: "https://kelvin-s-haven.vercel.app/",
+      projectDescription:
+        "In the digital age, having a strong online presence is crucial for professionals seeking to showcase their skills, experience, and passion. Recognizing this importance, I embarked on a journey to create my personal portfolio website, a platform to effectively communicate my expertise and aspirations.",
+      projectTech: ["React", "Next JS", "Tailwind", "Typescript"],
+      projectExternalLinks: {
+        github: "",
+        externalLink: "https://kelvin-s-haven.vercel.app/",
       },
     },
   ];
