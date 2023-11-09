@@ -27,7 +27,7 @@ function Hero() {
           delay: 0.75,
         }}
       >
-        Kelvin.
+        Olamilekan Kelvin.
       </motion.h2>
       <motion.h3
         className="hero-title-large hero-title-sub"
