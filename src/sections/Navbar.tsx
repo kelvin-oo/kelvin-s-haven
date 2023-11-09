@@ -62,7 +62,9 @@ function Navbar() {
             ease: "easeInOut",
           }}
         >
-          <Link href="/">
+          <Link href="/" style={{
+            display: 'flex'
+          }}>
             <Logo />
           </Link>
         </motion.div>

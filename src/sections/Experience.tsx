@@ -28,7 +28,7 @@ function Experience() {
     {
       name: "ThinkPeople LTD",
       role: "Lead Frontend Developer Instructor",
-      url: "#",
+      url: "https://www.linkedin.com/company/thinkpeople-ltd/mycompany/verification/",
       start: "November 2022",
       end: "February 2023",
       shortDescription: [
@@ -57,7 +57,7 @@ function Experience() {
     {
       name: "AbrahamtheFirst Media",
       role: "Web Developer",
-      url: "https://www.linkedin.com/company/association-of-computer-engineering-students/",
+      url: "",
       start: "April 2022",
       end: "June 2022",
       shortDescription: [
@@ -69,7 +69,7 @@ function Experience() {
     {
       name: "InstaSkool Tech",
       role: "Frontend Developer",
-      url: "https://www.linkedin.com/company/association-of-computer-engineering-students/",
+      url: "",
       start: "November 2021",
       end: "March 2022",
       shortDescription: [
