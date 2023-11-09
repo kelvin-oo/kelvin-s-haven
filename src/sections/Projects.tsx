@@ -87,8 +87,7 @@ function Projects() {
 
     {
       image: "/colors.png",
-      projectName:
-        " Palette Pro",
+      projectName: " Palette Pro",
       projectLink: "https://steady-genie-071a13.netlify.app/",
       projectDescription:
         "In the world of web design, color plays a pivotal role in creating visually appealing and engaging user interfaces. Palette Pro, a comprehensive color generation, color matcher, and color picker app, empowers web designers to effortlessly discover, match, and select the perfect color palettes for their projects. Only available on desktops",
@@ -108,9 +107,9 @@ function Projects() {
         "React",
         "Next JS",
         "Tailwind",
-        
+        "Sanity.io",
+        "Groq",
         "Typescript",
-        
       ],
       projectExternalLinks: {
         github: "",
@@ -125,11 +124,11 @@ function Projects() {
         "On this project, I took on the challenge of building a fullstack software solution for BrickWire Construction a large properties and real estate firm. From the initial design to deployment, I covered every step in the process of creating a standout full-stack web application. This process involved ensuring a smooth user experience, managing data, and enhancing security. I delved into frontend development with Next.js, wrote backend logic with API routes, harnessed MongoDB for data management, and incorporated a secure authentication system. For me, this project wasn't just another project; it was about crafting a versatile and efficient software solution from start to finish.",
       projectTech: [
         "React",
-        "Next JS",
-        "Tailwind",
-        "Prisma",
-        "Typescript",
-        "openAi API",
+        "Next Js",
+        "Auth Js",
+        "MongoDB",
+        "Express Js",
+        "cloudinary"
       ],
       projectExternalLinks: {
         github: "",
@@ -142,7 +141,7 @@ function Projects() {
       projectLink: "https://kelvin-s-haven.vercel.app/",
       projectDescription:
         "In the digital age, having a strong online presence is crucial for professionals seeking to showcase their skills, experience, and passion. Recognizing this importance, I embarked on a journey to create my personal portfolio website, a platform to effectively communicate my expertise and aspirations.",
-      projectTech: ["React", "Next JS", "Tailwind", "Typescript"],
+      projectTech: ["React", "Next JS", "Tailwind", "CSS/SCSS", "Typescript"],
       projectExternalLinks: {
         github: "",
         externalLink: "https://kelvin-s-haven.vercel.app/",
@@ -207,7 +206,9 @@ function Projects() {
                     ))}
                   </ul>
                   <ul className="project-info-links">
-                    <li className="project-info-links-item">
+                    <li className="project-info-links-item" style={{
+                      display: 'none'
+                    }}>
                       <Link
                         href={projectExternalLinks.github}
                         className="project-info-links-item-link"
