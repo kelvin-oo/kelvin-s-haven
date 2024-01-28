@@ -6,6 +6,83 @@ import { motion } from "framer-motion";
 
 function Projects() {
   const projectsData = [
+    
+    {
+      image: "/brick.png",
+      projectName: "Brickwire Properties",
+      projectLink: "https://www.brickwireproperties.com/",
+      projectDescription:
+        "On this project, I took on the challenge of building a fullstack software solution for BrickWire Construction a large properties and real estate firm. From the initial design to deployment, I covered every step in the process of creating a standout full-stack web application. This process involved ensuring a smooth user experience, managing data, and enhancing security. I delved into frontend development with Next.js, wrote backend logic with API routes, harnessed MongoDB for data management, and incorporated a secure authentication system. For me, this project wasn't just another project; it was about crafting a versatile and efficient software solution from start to finish.",
+      projectTech: [
+        "React",
+        "Next Js",
+        "Auth Js",
+        "MongoDB",
+        "Express Js",
+        "cloudinary"
+      ],
+      projectExternalLinks: {
+        github: "",
+        externalLink: "https://www.brickwireproperties.com/",
+      },
+    },
+    {
+      image: "/digital.png",
+      projectName: "Digital Objectivity",
+      projectLink: "https://objectivity-co-uk.vercel.app/career",
+      projectDescription:
+        "Here, I used Nextjs, tailwind, typescript, sanity and grow.I also connected this site to a backend CMS. Implemented custom features and functionality to improve user experience and performance, features such as allowing job seekers to filter through jobs by job type and mode(on-site, remote and hybrid). I also implemented other useful features following the provided UI/UX Design, this will result in increased user engagement.",
+      projectTech: [
+        "React",
+        "Next JS",
+        "Tailwind",
+        "Sanity.io",
+        "Groq",
+        "Typescript",
+        "CSS/SCSS",
+      ],
+      projectExternalLinks: {
+        github: "",
+        externalLink: "https://objectivity-co-uk.vercel.app/career",
+      },
+    },
+    {
+      image: "/quizmify.png",
+      projectName: "Quizmify",
+      projectLink: "https://quizmify.vercel.app/",
+      projectDescription:
+        "On this project, I took on the challenge of building a Full Stack AI Quiz Platform with NextJS 13, TailwindCSS, OpenAI, Next Auth",
+      projectTech: [
+        "React",
+        "Next Js",
+        "Auth Js",
+        "OpenAI",
+        "Tailwind"
+      ],
+      projectExternalLinks: {
+        github: "",
+        externalLink: "https://quizmify.vercel.app/",
+      },
+    },
+    {
+      image: "/style.png",
+      projectName: "The Style House Global",
+      projectLink: "https://thestylehouseglobal.com/",
+      projectDescription:
+        "This was a remarkable journey — a brand-new website for an esteemed styling and fashion-tech company!The Style House Nigeria. It was an incredible experience working closely with a talented team and bringing their vision to life through an immersive digital platform.",
+      projectTech: [
+        "React",
+        "Next JS",
+        "Tailwind",
+        "Sanity.io",
+        "Groq",
+        "Typescript",
+      ],
+      projectExternalLinks: {
+        github: "",
+        externalLink: "https://thestylehouseglobal.com/",
+      },
+    },
     {
       image: "/ease.png",
       projectName: "Ease",
@@ -41,23 +118,17 @@ function Projects() {
       },
     },
     {
-      image: "/digital.png",
-      projectName: "Digital Objectivity",
-      projectLink: "https://objectivity-co-uk.vercel.app/career",
+      image: "/insta.png",
+      projectName: "Instaskool.co",
+      projectLink:
+        "https://instaskool-co.vercel.app/",
       projectDescription:
-        "Here, I used Nextjs, tailwind, typescript, sanity and grow.I also connected this site to a backend CMS. Implemented custom features and functionality to improve user experience and performance, features such as allowing job seekers to filter through jobs by job type and mode(on-site, remote and hybrid). I also implemented other useful features following the provided UI/UX Design, this will result in increased user engagement.",
-      projectTech: [
-        "React",
-        "Next JS",
-        "Tailwind",
-        "Sanity.io",
-        "Groq",
-        "Typescript",
-        "CSS/SCSS",
-      ],
+        "Instaskool is an educational learning website which is in development",
+      projectTech: ["React", "NextAuth", "Typescript", "Tailwind", "sass/scss"],
       projectExternalLinks: {
         github: "",
-        externalLink: "https://objectivity-co-uk.vercel.app/career",
+        externalLink:
+          "https://instaskool-co.vercel.app/",
       },
     },
     {
@@ -95,44 +166,6 @@ function Projects() {
       projectExternalLinks: {
         github: "",
         externalLink: "https://steady-genie-071a13.netlify.app/",
-      },
-    },
-    {
-      image: "/style.png",
-      projectName: "The Style House",
-      projectLink: "https://thestylehousenigeria.com/",
-      projectDescription:
-        "This was a remarkable journey — a brand-new website for an esteemed styling and fashion-tech company!The Style House Nigeria. It was an incredible experience working closely with a talented team and bringing their vision to life through an immersive digital platform.",
-      projectTech: [
-        "React",
-        "Next JS",
-        "Tailwind",
-        "Sanity.io",
-        "Groq",
-        "Typescript",
-      ],
-      projectExternalLinks: {
-        github: "",
-        externalLink: "https://thestylehousenigeria.com/",
-      },
-    },
-    {
-      image: "/brick.png",
-      projectName: "Brickwire Properties",
-      projectLink: "https://www.brickwireproperties.com/",
-      projectDescription:
-        "On this project, I took on the challenge of building a fullstack software solution for BrickWire Construction a large properties and real estate firm. From the initial design to deployment, I covered every step in the process of creating a standout full-stack web application. This process involved ensuring a smooth user experience, managing data, and enhancing security. I delved into frontend development with Next.js, wrote backend logic with API routes, harnessed MongoDB for data management, and incorporated a secure authentication system. For me, this project wasn't just another project; it was about crafting a versatile and efficient software solution from start to finish.",
-      projectTech: [
-        "React",
-        "Next Js",
-        "Auth Js",
-        "MongoDB",
-        "Express Js",
-        "cloudinary"
-      ],
-      projectExternalLinks: {
-        github: "",
-        externalLink: "https://www.brickwireproperties.com/",
       },
     },
     {
