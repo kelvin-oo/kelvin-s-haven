@@ -65,6 +65,7 @@ function Projects() {
       },
     },
     {
+      
       image: "/style.png",
       projectName: "The Style House Global",
       projectLink: "https://thestylehouseglobal.com/",

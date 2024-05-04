@@ -89,6 +89,10 @@ function About() {
             <li className="about-grid-info-list-item">Tailwind</li>
             <li className="about-grid-info-list-item">Sanity.io</li>
             <li className="about-grid-info-list-item">Git/Github</li>
+            <li className="about-grid-info-list-item">SQL</li>
+            <li className="about-grid-info-list-item">NoSQL</li>
+            <li className="about-grid-info-list-item">Postgress</li>
+            <li className="about-grid-info-list-item">Mongoose</li>
           </ul>
         </div>
         <div className="about-grid-photo">
