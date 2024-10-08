@@ -10,7 +10,7 @@ function Projects() {
     {
       image: "/brick.png",
       projectName: "Brickwire Properties",
-      projectLink: "https://www.brickwireproperties.com/",
+      projectLink: "/brickwire",
       projectDescription:
         "On this project, I took on the challenge of building a fullstack software solution for BrickWire Construction a large properties and real estate firm. From the initial design to deployment, I covered every step in the process of creating a standout full-stack web application. This process involved ensuring a smooth user experience, managing data, and enhancing security. I delved into frontend development with Next.js, wrote backend logic with API routes, harnessed MongoDB for data management, and incorporated a secure authentication system. For me, this project wasn't just another project; it was about crafting a versatile and efficient software solution from start to finish.",
       projectTech: [
@@ -23,7 +23,7 @@ function Projects() {
       ],
       projectExternalLinks: {
         github: "",
-        externalLink: "https://www.brickwireproperties.com/",
+        externalLink: "/brickwire",
       },
     },
     {
