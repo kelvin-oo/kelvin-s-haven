@@ -27,6 +27,46 @@ function Projects() {
       },
     },
     {
+      image: "/participant/Screenshot 2024-09-29 213848.png",
+      projectName: "ECX_LMS",
+      projectLink: "/ecx-lms",
+      projectDescription:
+        "The ECX-LMS is a comprehensive Learning Management System designed for a 21-day coding challenge program. It features role-specific interfaces for participants, tutors, and super admins, each with tailored functionalities to enhance the learning experience. Participants can track their progress, view leaderboards, and manage their tasks, while tutors have tools for task creation, grading, and student progress monitoring. The super admin role provides overarching control and insights across all users and tracks. The system incorporates features such as real-time progress tracking, detailed analytics, and a robust task lifecycle management process. With its multi-tiered user roles and comprehensive feature set, the ECX-LMS facilitates efficient communication, streamlines the learning process, and provides valuable insights for program management and improvement.",
+      projectTech: [
+        "React",
+        "Next Js",
+        "Auth Js",
+        "PostgreSQL",
+        "Express Js",
+        "Node.js",
+        "Prisma"
+      ],
+      projectExternalLinks: {
+        github: "",
+        externalLink: "/ecx-lms",
+      },
+    },
+    {
+      image: "/ease.png",
+      projectName: "Ease",
+      projectLink: "https://chatwithpdf-nine.vercel.app/",
+      projectDescription:
+        "Ease is a web application that utilizes React, Next.js, and Prisma to provide students with a comprehensive question answering system. Students can upload their PDF documents and interact with the application to ask questions directly related to the text. The application uses advanced natural language processing techniques to extract key information from the uploaded PDFs and generate comprehensive answers to student queries. This is my most recent project",
+      projectTech: [
+        "React",
+        "Next JS",
+        "Tailwind",
+        "Prisma",
+        "Typescript",
+        "openAi API",
+        "TRCP",
+      ],
+      projectExternalLinks: {
+        github: "",
+        externalLink: "https://chatwithpdf-nine.vercel.app/",
+      },
+    },
+    {
       image: "/digital.png",
       projectName: "Digital Objectivity",
       projectLink: "https://objectivity-co-uk.vercel.app/career",
@@ -84,26 +124,7 @@ function Projects() {
         externalLink: "https://thestylehouseglobal.com/",
       },
     },
-    {
-      image: "/ease.png",
-      projectName: "Ease",
-      projectLink: "https://ease-azure.vercel.app/",
-      projectDescription:
-        "Ease is a web application that utilizes React, Next.js, and Prisma to provide students with a comprehensive question answering system. Students can upload their PDF documents and interact with the application to ask questions directly related to the text. The application uses advanced natural language processing techniques to extract key information from the uploaded PDFs and generate comprehensive answers to student queries. This is my most recent project",
-      projectTech: [
-        "React",
-        "Next JS",
-        "Tailwind",
-        "Prisma",
-        "Typescript",
-        "openAi API",
-        "TRCP",
-      ],
-      projectExternalLinks: {
-        github: "",
-        externalLink: "https://ease-azure.vercel.app/",
-      },
-    },
+   
     {
       image: "/stitch.png",
       projectName: "Stitch.com",
