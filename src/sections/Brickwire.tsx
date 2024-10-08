@@ -122,7 +122,7 @@ const Brickwire = () => {
       Detailed Property Information: Access to comprehensive details about each property, including images, specifications, pricing, and availability.
     </li>
     <li>
-      Inquiry System: Users can submit inquiries about properties they're interested in, facilitating communication with BrickWire's sales team.
+      Inquiry System: Users can submit inquiries about properties they're interested in, facilitating communication with BrickWire&apos;s sales team.
     </li>
     <li>
       User Profiles: Registered users can create and manage their profiles, save favorite properties, and track their inquiries.
@@ -148,7 +148,7 @@ const Brickwire = () => {
       Performance Optimization: Utilization of server-side rendering (SSR) for improved performance and faster page load times.
     </li>
     <li>
-      Scalability: The system is designed to handle growth in both property listings and user base, ensuring long-term viability for BrickWire's expanding operations.
+      Scalability: The system is designed to handle growth in both property listings and user base, ensuring long-term viability for BrickWire&apos;s expanding operations.
     </li>
   </ul>
 </div>

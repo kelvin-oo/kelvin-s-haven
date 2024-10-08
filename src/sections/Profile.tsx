@@ -177,13 +177,13 @@ const ProjectPage = () => {
                 grade individual submissions, and track submission status.
               </li>
               <li>
-                Grading System: Tutors can grade students' submissions,
+                Grading System: Tutors can grade students&apos; submissions,
                 inputting grades and adding remarks for each submission.
               </li>
               <li>
                 Participant Management: Tutors can view a list of all
                 participants with search and filter options, and access
-                individual participant's submission history.
+                individual participant&apos;s submission history.
               </li>
               <li>
                 Profile Management: Tutors can view and edit their profile,
