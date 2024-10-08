@@ -122,7 +122,7 @@ const Brickwire = () => {
       Detailed Property Information: Access to comprehensive details about each property, including images, specifications, pricing, and availability.
     </li>
     <li>
-      Inquiry System: Users can submit inquiries about properties they're interested in, facilitating communication with BrickWire&apos;s sales team.
+      Inquiry System: Users can submit inquiries about properties they&apos;re interested in, facilitating communication with BrickWire&apos;s sales team.
     </li>
     <li>
       User Profiles: Registered users can create and manage their profiles, save favorite properties, and track their inquiries.

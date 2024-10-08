@@ -58,16 +58,16 @@ function About() {
             </Link>
           </p>
           <p className="about-grid-info-text">
-            I am currently building efficient softwares for ThinkPeople Limited
-            and working on my first personal Saas&nbsp;
+            I am currently building efficient softwares for ThinkPeople Limited, exploring the world of Golang 
+            and working on launching a start-up soon&nbsp;
             <Link
               className="link"
               target="_blank"
-              href="https://ease-azure.vercel.app/"
+              href="https://www.vibeazy.com/"
             >
-              Ease
+              Vibeazy (Coming Soon)
             </Link>
-            &nbsp;aimed at giving students ease in reading their pdfs.
+            {/* &nbsp;aimed at giving students ease in reading their pdfs. */}
           </p>
           <p className="about-grid-info-text">
             Here are a few technologies I&#39;ve been working with recently:
